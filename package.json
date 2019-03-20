@@ -1,0 +1,17 @@
+{
+  "name": "gomplate",
+  "version": "3.3.1",
+  "description": "Gomplate port to npm",
+  "scripts": {
+    "postinstall": "go-npm install",
+    "preuninstall": "go-npm uninstall"
+  },
+  "goBinary": {
+    "name": "gomplate",
+    "path": "./bin",
+    "url": "https://github.com/hairyhenderson/gomplate/releases/download/v{{version}}/gomplate_{{platform}}-{{arch}}-slim"
+  },
+  "dependencies": {
+    "go-npm": "RecuencoJones/go-npm#700312eaba756217662c41b0a5b84a3637a20669"
+  }
+}
