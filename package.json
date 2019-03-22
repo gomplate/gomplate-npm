@@ -1,17 +1,32 @@
 {
   "name": "gomplate",
   "version": "3.3.1",
+  "license": "MIT",
   "description": "Gomplate port to npm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RecuencoJones/gomplate-npm"
+  },
   "scripts": {
+    "releases:download": "node ./releases download",
+    "releases:publish": "node ./releases publish",
+    "safe-publish": "safe-publish",
     "postinstall": "go-npm install",
     "preuninstall": "go-npm uninstall"
   },
   "goBinary": {
     "name": "gomplate",
     "path": "./bin",
-    "url": "https://github.com/hairyhenderson/gomplate/releases/download/v{{version}}/gomplate_{{platform}}-{{arch}}-slim"
+    "url": "https://github.com/hairyhenderson/gomplate/releases/download/v{{version}}/gomplate_{{platform}}-{{arch}}"
   },
   "dependencies": {
     "go-npm": "RecuencoJones/go-npm#700312eaba756217662c41b0a5b84a3637a20669"
+  },
+  "devDependencies": {
+    "axios": "0.18.0",
+    "dotenv": "7.0.0",
+    "rxjs": "6.4.0",
+    "safe-publish": "1.0.0",
+    "shelljs": "0.8.3"
   }
 }
