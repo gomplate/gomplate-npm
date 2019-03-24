@@ -5,7 +5,7 @@
   "description": "Gomplate port to npm",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RecuencoJones/gomplate-npm"
+    "url": "https://github.com/gomplate/gomplate-npm"
   },
   "scripts": {
     "releases:download": "node ./releases download",

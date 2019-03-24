@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/RecuencoJones/gomplate-npm.svg?branch=master)](https://travis-ci.com/RecuencoJones/gomplate-npm)
+[![Build Status](https://travis-ci.com/gomplate/gomplate-npm.svg?branch=master)](https://travis-ci.com/gomplate/gomplate-npm)
 
 # gomplate (npm port)
 
