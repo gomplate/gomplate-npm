@@ -2,7 +2,7 @@
   "name": "gomplate",
   "version": "3.3.1",
   "license": "MIT",
-  "description": "Gomplate port to npm",
+  "description": "Install gomplate with npm",
   "repository": {
     "type": "git",
     "url": "https://github.com/gomplate/gomplate-npm"

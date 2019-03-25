@@ -1,8 +1,8 @@
 [![Build Status](https://travis-ci.com/gomplate/gomplate-npm.svg?branch=master)](https://travis-ci.com/gomplate/gomplate-npm)
 
-# gomplate (npm port)
+# gomplate-npm
 
-This library is just a port of [gomplate](https://github.com/hairyhenderson/gomplate) go package using [go-npm](https://github.com/sanathkr/go-npm).
+Installs [gomplate](https://github.com/hairyhenderson/gomplate) with `npm` using [go-npm](https://github.com/sanathkr/go-npm).
 
 ## Publishing
 
