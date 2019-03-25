@@ -14,9 +14,9 @@
   "goBinary": {
     "name": "gomplate",
     "path": "./bin",
-    "url": "https://github.com/hairyhenderson/gomplate/releases/download/v{{version}}/gomplate_{{platform}}-{{arch}}"
+    "url": "https://github.com/hairyhenderson/gomplate/releases/download/v{{version}}/gomplate_{{platform}}-{{arch}}{{win_ext}}"
   },
   "dependencies": {
-    "go-npm": "RecuencoJones/go-npm#700312eaba756217662c41b0a5b84a3637a20669"
+    "go-npm": "RecuencoJones/go-npm#163547a60e76accacafe7d3a16ba2dfaaa84899b"
   }
 }
