@@ -1,6 +1,6 @@
 {
   "name": "gomplate",
-  "version": "3.10.0",
+  "version": "3.11.0",
   "license": "MIT",
   "description": "Install gomplate with npm",
   "repository": {
@@ -17,6 +17,6 @@
     "url": "https://github.com/hairyhenderson/gomplate/releases/download/v{{version}}/gomplate_{{platform}}-{{arch}}{{win_ext}}"
   },
   "dependencies": {
-    "go-npm": "RecuencoJones/go-npm#ce647cb47f7825464a55425620e026968662b693"
+    "go-npm": "RecuencoJones/go-npm#163547a60e76accacafe7d3a16ba2dfaaa84899b"
   }
 }
